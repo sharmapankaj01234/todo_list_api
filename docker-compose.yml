@@ -1,0 +1,10 @@
+version: "2.2"
+services:
+ web:
+  build: .
+  ports: [3000:3000]
+  depends_on: [mongo]
+ mongo:
+  image: mongo
+  command: mongod --port 27018
+  ports: [27018:27018]
