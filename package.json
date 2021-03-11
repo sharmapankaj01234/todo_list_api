@@ -1,0 +1,28 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "Restful Api to maintain todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"error no test specified\" ",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "RestfulApiTutorial"
+  },
+  "keywords": [
+    "Restful",
+    "api",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Pankaj Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
