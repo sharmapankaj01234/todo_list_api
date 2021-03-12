@@ -1,14 +1,8 @@
 var express = require('express'),
   app = express(),
   port = process.env.PORT || 3000,
- // mongoose = require('mongoose'),
   Task = require('./api/models/todoListModel'), //created model loading here
-   connectDb = require('./connection.js');
-   
-// mongoose instance connection url connection
-//mongoose.Promise = global.Promise;
-//mongoose.connect('mongodb://localhost/Tododb',{ useNewUrlParser: true, useUnifiedTopology: true }); 
-
+  connectDb = require('./connection.js');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
